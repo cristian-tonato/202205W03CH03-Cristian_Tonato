@@ -1,0 +1,45 @@
+{
+  "name": "202205w03ch03-cristian_tonato",
+  "version": "1.0.0",
+  "description": "Series\r Aquí tienes una aplicación maquetada con HTML y CSS. Se trata de una aplicación que gestiona un listado de series, separándolas entre series vistas y no vistas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint",
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "types": "module",
+    "url": "git+https://github.com/cristian-tonato/202205W03CH03-Cristian_Tonato.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristian-tonato/202205W03CH03-Cristian_Tonato/issues"
+  },
+  "homepage": "https://github.com/cristian-tonato/202205W03CH03-Cristian_Tonato#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.18.2",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.0"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/dist/"
+    ]
+  }
+}
